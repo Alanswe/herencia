@@ -34,7 +34,6 @@ class Test_Circulo(unittest.TestCase):
     def test_radio_negaivo_2(self):
         with self.assertRaises(Exception):
             Circulo(-1)
-    
 
 class Test_rectangulo(unittest.TestCase):
     def test_existencia(self):
