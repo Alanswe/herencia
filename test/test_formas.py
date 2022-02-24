@@ -44,7 +44,7 @@ class Test_rectangulo(unittest.TestCase):
     def test_perimetro(self):
         re = Rectangulo(10,20)
         perimetro = re.perimetro()
-        self.assertEqual(perimetro,400)
+        self.assertEqual(perimetro,60)
 
 class Test_cuadrado(unittest.TestCase):
     
