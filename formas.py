@@ -15,7 +15,7 @@ class Circulo(Forma):
         if type(radio) in (int,float) and radio > 0:
                 self.radio = radio
         else:
-            raise Exception('El radio ser un número positivo \n...O simplemente un número ¡Zoquete!')
+            raise Exception('El radio tiene que ser un número positivo \n...O simplemente un número ¡Zoquete!')
 
     def area(self):
         return pi * self.radio * self.radio
